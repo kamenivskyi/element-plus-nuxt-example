@@ -1,0 +1,15 @@
+// styles/element/index.scss
+/* just override what you need */
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': rgb(0, 98, 128),
+    ),
+    'warning': (
+        'base': rgb(216, 127, 11),
+    ),
+    'success': (
+        'base': #45c322,
+    )
+  )
+);

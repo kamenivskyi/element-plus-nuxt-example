@@ -5,6 +5,15 @@ export default defineNuxtConfig({
     '@element-plus/nuxt'
   ],
   elementPlus: {
-    
+    importStyle: 'scss'
+  },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "@/assets/scss/index.scss" as element;',
+        },
+      },
+    },
   }
 })

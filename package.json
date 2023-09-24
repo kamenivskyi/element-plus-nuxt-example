@@ -13,6 +13,7 @@
     "@element-plus/nuxt": "^1.0.6",
     "@nuxt/devtools": "latest",
     "element-plus": "^2.3.14",
-    "nuxt": "^3.7.3"
+    "nuxt": "^3.7.3",
+    "sass": "^1.68.0"
   }
 }
